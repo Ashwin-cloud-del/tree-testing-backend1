@@ -7,7 +7,7 @@ const cors = require('cors');
 
 // Refined CORS configuration
 const corsOptions = {
-  origin: 'http://localhost:3000', // Replace with your frontend URL, e.g., http://localhost:3000 for React frontend
+  origin: 'https://tree-testing1.vercel.app/', // Replace with your frontend URL, e.g., http://localhost:3000 for React frontend
   methods: 'GET,POST,PUT,DELETE', // Specify allowed HTTP methods
   allowedHeaders: ['Content-Type'], // Specify allowed headers
   credentials: true, // Allow credentials such as cookies, authentication
